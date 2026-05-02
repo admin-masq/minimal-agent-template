@@ -1,0 +1,24 @@
+{
+  "name": "minimal-agent-template",
+  "version": "1.0.0",
+  "description": "Low-latency starter kit for building Claude-powered agents.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "meta-scalpel-masq-v1": "^1.0.0",
+    "dotenv": "^16.4.5"
+  },
+  "keywords": [
+    "claude",
+    "agent",
+    "low-latency",
+    "ai",
+    "prompt-optimization"
+  ],
+  "author": "Antigravity",
+  "license": "MIT"
+}
